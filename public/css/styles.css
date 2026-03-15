@@ -34,7 +34,7 @@ nav {
 .navigation {
   display: flex;
   list-style: none;
-  background-color: #333;
+  background-color: var(--primary-color);
   color: #fff;
 }
 
@@ -44,6 +44,12 @@ nav {
   text-decoration: none;
   color: var(--header-text-color);
   flex: 1;
+}
+
+.navigation a:hover {
+  background-color: #26263d;
+  border-radius: 4px;
+  
 }
 
 .navigation .active {
@@ -226,8 +232,8 @@ footer {
     margin: 0;
     background-image: url('/public/images/site/checkerboard.jpg');
     background-size: cover;
-    /* background-position: center;
-    background-repeat: no-repeat; */
+    background-position: center;
+    background-repeat: no-repeat; 
 
   }
 
